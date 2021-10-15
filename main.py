@@ -14,6 +14,9 @@ class Player:
 p = Player("Foppa", Position.Forward) 
 p2 = Player("Sudden", Position.Forward) 
 
+
+
+
 def printplayer(namn: str, age: int, position: Position) :
     if position == Position.Forward:
         print("Anfallare")
