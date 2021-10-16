@@ -24,6 +24,6 @@ def printplayer(namn: str, age: int, position: Position) :
         print("Försvarare")
     if position == Position.Goalie:
         print("Målis")
-    print(namn + "," + age)
+    print(namn + "," + str(age))
 
 printplayer("Mats Sundin", 50, Position.Forward )
